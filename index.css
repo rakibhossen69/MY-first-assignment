@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* share */
+.btn{
+    background-color: #469165;
+    color: white;
+    padding: 12px 16px;
+    font-weight: 600;
+    /* gap: 10px; */
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+/* not share */
+                               /* my nav style */
+#nav-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 16px 120px;
+    border: 1px solid red;
+    /* height: 92px;
+    width: 1600px; */
+
+}
+#nav-container .nav-logo{
+    height:60px ;
+    width:139px ;
+}
+#nav-container .nav-header{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    /* align-items: center; */
+    padding-top: 24px;
+    
+    
+
+}
+#nav-container .nav-header a {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 152%;
+    color: black;
+}
+#hero-container {
+    /* display: flex; */
+    background-image:url(assets/hero-bg.png);
+    text-align: center;
+     max-height: 674px;
+    background-size: cover;
+    padding: 70px 120px 130px 120px;
+}
+#hero-container .hero-all-content {
+    width: 1360px;
+    height: 379px;
+    text-align: center;  
+}
+#hero-container .hero-all-content .hero-main-content {
+    height: 295px;
+}
+.hero-all-content .hero-btn {
+    display: flex;
+    align-items: center;
+    margin:32 auto ;
+}
+.hero-main-content .hero-form {
+    width: 229px;
+    height: 35px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+
+}
+
+                                /* my note section */
+#note-container {
+    height: 448px;
+    /* border: 1px solid red; */
+    padding:  0px 120px;
+    gap: 24px;
+}
+#note-container .note-header {
+    /* border: 1px solid red; */
+    text-align: center;
+    height: 152px;
+    width: 1360px;
+}
+#note-container .note-header h1 {
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 100%;
+    color: #001931;
+    padding: 36px 0 16px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+#note-container .note-header p{
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+#note-container .note-card {
+    /* border: 1px solid red; */
+    text-align: center;
+    height: 300px;
+    width: 1360px;
+    margin-top: 30px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.note-card .note-card-section {
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 300px;
+    margin-right:10px;
+    border-radius: 10px;
+    /* box-shadow:; */
+    
+ }
+.note-card .note-card-section img {
+    height: 60px;
+    width: 6opx;
+    border-radius: 50%;
+    background-color: #F95555;
+    margin: 69px 131px 0;
+}
+.note-card .note-card-section h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin: 16px 0;
+    line-height: 100%;
+}
+.note-card .note-card-section p {
+     color: #627382;
+     font-weight: 400;
+     line-height: 20px;
+}
+
+                                 /* my brain section */
+
+#brain {
+    height: 840px;
+    padding: 120px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+#brain .brain-section {
+    display: flex;
+    height: 600px;
+    width: 1360px;
+    /* border: 2px solid red; */
+}
+#brain .brain-section .brain-img {
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+    margin-right: 60px;
+}
+#brain .brain-section .brain-content {
+    width: 700px;
+    height: 395px;
+    /* border: 2px solid red; */
+    margin: 102px 0 ;
+    text-align: left;
+}
+.brain-content .main-brain {
+    height: 228px;
+    /* border: 1px solid red; */
+}
+.brain-content .main-brain h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 15px;
+
+}
+.brain-content .main-brain h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color:#001931;
+}
+.brain-content .main-brain p {
+    font-weight: 400px;
+    line-height: 20px;
+    height: 60px;
+    color:#627382 ;
+    margin-top: 16px ;
+} 
+.ops-content div{
+    display: flex;
+    margin-bottom: 16px;
+    
+}
+
