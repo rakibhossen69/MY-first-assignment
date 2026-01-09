@@ -13,6 +13,7 @@
 }
 .btn:hover{
     cursor: pointer;
+
 }
 
 
@@ -24,7 +25,7 @@
     justify-content: space-between;
     text-align: center;
     padding: 16px 120px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* height: 92px;
     width: 1600px; */
 
@@ -49,38 +50,57 @@
     line-height: 152%;
     color: black;
 }
-#hero-container {
-    /* display: flex; */
+
+                            /* my hero section */
+#hero-container{
+    height:354px ;
+    width: 1520px;
     background-image:url(assets/hero-bg.png);
-    text-align: center;
-     max-height: 674px;
-    background-size: cover;
-    padding: 70px 120px 130px 120px;
-}
-#hero-container .hero-all-content {
-    width: 1360px;
-    height: 379px;
-    text-align: center;  
-}
-#hero-container .hero-all-content .hero-main-content {
-    height: 295px;
-}
-.hero-all-content .hero-btn {
-    display: flex;
-    align-items: center;
-    margin:32 auto ;
-}
-.hero-main-content .hero-form {
-    width: 229px;
-    height: 35px;
-    padding: 8px 12px;
-    margin-bottom: 16px;
 
 }
+
+.hero-all-content {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+.hero-main-content p{
+    font-weight: 400;
+    line-height: 20px;
+    color: #f8f8f8f2;
+    margin-bottom: 30px;
+}
+.hero-main-content h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color:#fefeff;
+}
+.hero-main-content span{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color:#30B868;
+    
+}
+.hero-form{
+    image
+}
+#white-btn{
+    /* color: white; */
+    padding: 12px 16px;
+    font-weight: 600;
+    /* gap: 10px; */
+    border-radius: 5px;
+}
+
 
                                 /* my note section */
 #note-container {
-    height: 448px;
+    height: 348px;
     /* border: 1px solid red; */
     padding:  0px 120px;
     gap: 24px;
@@ -146,7 +166,7 @@
                                  /* my brain section */
 
 #brain {
-    height: 840px;
+    height:540px;
     padding: 120px;
     text-align: center;
     /* border: 2px solid red; */
@@ -200,4 +220,95 @@
     margin-bottom: 16px;
     
 }
+                             /* my lower-section */
+#lower-section {
+    height:300px ;
+    width: 1280px;
+    /* border: 2px solid red; */
+    align-items: center;
+    padding: 2px 120px 120px 120px;
+} 
+#lower-section .lower-content {
+    height: 300px;
+    width: 1200px;
+    padding: 80px 40px 80px 40px;
+    background-color: rgb(223, 222, 214);
+    /* border: 1px solid red; */
+    text-align: center;
+    justify-content: center;
+} 
+#lower-section .lower-content .lower-head {
+    width: 1280px;
+    height: 112px;
+    margin:80px 40px 24px 40px ;   
+    /* border: 1px solid red; */
+    align-items: center;
+
+}
+#lower-section .lower-content .lower-head h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    color:rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+#lower-section .lower-content .lower-head p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#627382;
+    /* margin-bottom: 16px; */
+} 
+#lower-section .lower-content .lower-body {
+    /* border: 1px solid blue; */
+    height:50px ;
+    width:1200px ;
+    margin: 0 40px 60px 40px;
+    align-items: center;
+    text-align: center;
+} 
+.hight{
+    margin-top: 15px;
+}
+#lower-section .lower-content .lower-body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#627382;
+
+}      
+
+
+                     /* /* my footer section * */
+#footer {
+    margin-top: 50px;
+    height:300px ;
+    width: 1520px;
+    /* border: 2px solid red; */
+    background-color: #001931;
+}
+.footer-head {
+    margin: 50px 80px ;
+    height: 64px;
+    width:1200px ;
+    /* border: 2px solid white; */
+    display: inline-flex;
+    justify-content: space-between;  
+}
+.footer-head h2{
+    color: white;
+}
+.all-social-link{
+    display: flex;
+
+}
+.all-social-link a {
+    color: white;
+}
+#footer #p {
+    color: white;
+    text-align:center;
+}
+
+
 
